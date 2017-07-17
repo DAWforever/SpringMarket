@@ -1,4 +1,6 @@
 package com.wangyq.market.test;
+
+import static org.junit.Assert.*;
 import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
@@ -86,4 +88,6 @@ public class TestGoods {
             session.close();
         }
     }
+    
+
 }
