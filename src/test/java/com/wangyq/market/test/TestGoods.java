@@ -8,7 +8,8 @@ import com.wangyq.market.mapper.GoodsDAO;
 
 import junit.framework.Assert;
 public class TestGoods {
-	public void getGoodsPagerTest() {
+	@Test
+    public void getGoodsPagerTest() {
         int skip=4;
         int size=2;
         SqlSession session=MyBatisUtil.getSession();
